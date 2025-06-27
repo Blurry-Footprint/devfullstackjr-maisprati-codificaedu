@@ -37,15 +37,15 @@ Após a instalação, reinicie o terminal e digite `node -v` novamente para conf
 
 | Nº | Descrição |
 |----|-----------|
-| 01 | Ordenação com for: ordena um array de números em ordem crescente usando laços for e troca manual dos valores. |
-| 02 | Validação de Datas: função que verifica se uma data é válida, considerando meses e anos bissextos. |
-| 03 | Jogo de Adivinhação: gera número aleatório e pede para usuário adivinhar, dando dicas e contando tentativas. |
-| 04 | Palavras Únicas: extrai palavras únicas de uma string usando for e if/else. |
-| 05 | Fatorial Recursivo: calcula o fatorial de um número usando recursão, com tratamento para valores negativos. |
-| 06 | Debounce: cria função que limita a frequência de execução de outra função com atraso definido. |
-| 07 | Memoization: implementa cache para evitar recalcular resultados de funções com mesmos argumentos. |
-| 08 | Mapeamento e Ordenação: recebe array de produtos, ordena por preço e retorna array com só os nomes. |
-| 09 | Agrupamento por Propriedade: usa reduce para somar valores agrupando por cliente em objeto. |
+| 01 | Validação de Datas: função que verifica se uma data é válida, considerando meses e anos bissextos. |
+| 02 | Jogo de Adivinhação: gera número aleatório e pede para usuário adivinhar, dando dicas e contando tentativas. |
+| 03 | Palavras Únicas: extrai palavras únicas de uma string usando for e if/else. |
+| 04 | Fatorial Recursivo: calcula o fatorial de um número usando recursão, com tratamento para valores negativos. |
+| 05 | Debounce: cria função que limita a frequência de execução de outra função com atraso definido. |
+| 06 | Memoization: implementa cache para evitar recalcular resultados de funções com mesmos argumentos. |
+| 07 | Mapeamento e Ordenação: recebe array de produtos, ordena por preço e retorna array com só os nomes. |
+| 08 | Agrupamento por Propriedade: usa reduce para somar valores agrupando por cliente em objeto. |
+| 09 | Conversão entre Formatos: recebe um array de pares e retorna o objeto equivalente, e faz o inverso, retornando um array de pares. |
 
 
 ---
