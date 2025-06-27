@@ -4,8 +4,8 @@ Este repositório contém as atividades realizadas no treinamento **Dev Full Sta
 
 ## 📂 Estrutura
 
-- `atividades-obrigatorias/`: Contém listas de exercícios obrigatórios.
-- `atividades-opcionais/`: Contém listas de exercícios e desafios opcionais.
+- `atividades-obrigatorias/`: Contém listas de exercícios/desafios obrigatórios.
+- `atividades-opcionais/`: Contém listas de exercícios/desafios opcionais.
 
 Cada pasta de atividade está organizada por listas, facilitando o acesso e a manutenção dos arquivos.
 
