@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="04-05-06-07-styles.css">
+  <title>Minha Primeira Página Semântica</title>
+</head>
+
+<script>
+  function toggleMenu() {
+    document.querySelector('.menu-links').classList.toggle('ativo');
+  }
+</script>
+
+<body>
+
+  <nav class="menu">
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="menu-links">
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Bem-vindo ao Nosso Site</h1>
+    <p>Somos uma empresa dedicada a transformar ideias em soluções inovadoras.</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Missão</h2>
+      <p>Nossa missão é oferecer produtos de qualidade que atendam às necessidades dos nossos clientes.</p>
+    </section>
+
+    <section>
+      <h2>Visão</h2>
+      <p>Ser referência no mercado por meio da inovação, ética e comprometimento com a excelência.</p>
+    </section>
+
+  </main>
+
+  <h2>Galeria de Imagens</h2>
+  <div class="galeria-container">
+    <div class="galeria">
+
+      <figure>
+        <img src="image.jpg" alt="Imagem 1">
+        <figcaption>Imagem 1</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image.jpg" alt="Imagem 2">
+        <figcaption>Imagem 2</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image.jpg" alt="Imagem 3">
+        <figcaption>Imagem 3</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image.jpg" alt="Imagem 4">
+        <figcaption>Imagem 4</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image.jpg" alt="Imagem 5">
+        <figcaption>Imagem 5</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image.jpg" alt="Imagem 6">
+        <figcaption>Imagem 6</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image.jpg" alt="Imagem 7">
+        <figcaption>Imagem 7</figcaption>
+      </figure>
+
+      <figure>
+        <img src="image.jpg" alt="Imagem 8">
+        <figcaption>Imagem 8</figcaption>
+      </figure>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>

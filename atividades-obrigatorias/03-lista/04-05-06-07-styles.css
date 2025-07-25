@@ -1,0 +1,103 @@
+header, main, footer {
+  background-color: #f0f0f0; /* cor de fundo clara */
+  color: #333;               /* cor do texto */
+  margin: 20px;              /* espaço externo */
+  padding: 15px;             /* espaço interno */
+  border: 2px solid #888;    /* borda visível */
+}
+
+h2 {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.destaque {
+  font-style: italic;
+  background-color: #ffeeba; /* amarelo bem suave */
+}
+
+#importante {
+  border-top: 5px solid red;
+}
+
+/* Galeria container com Flexbox */
+.galeria-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Galeria com Grid */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  max-width: 1000px;
+}
+
+.galeria figure {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Menu padrão */
+.menu {
+  background-color: #222;
+  color: white;
+  padding: 10px 20px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Menu responsivo */
+@media (max-width: 600px) {
+  .menu ul {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .menu ul.ativo {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
